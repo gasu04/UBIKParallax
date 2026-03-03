@@ -11,10 +11,14 @@
             "id": "9cc2fe92e626c9ff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "vault/Science and Religion.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Science and Religion"
             }
           }
         ]
