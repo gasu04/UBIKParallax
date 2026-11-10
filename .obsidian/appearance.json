@@ -1,1 +1,8 @@
-{}
+{
+  "accentColor": "#fff994",
+  "cssTheme": "Matrix",
+  "interfaceFontFamily": "Avenir Next Condensed",
+  "textFontFamily": "American Typewriter",
+  "baseFontSize": 23,
+  "baseFontSizeAction": true
+}

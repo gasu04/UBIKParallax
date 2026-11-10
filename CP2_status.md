@@ -83,10 +83,10 @@ So the literal gate is **not satisfied**, even though the 3 existing outputs loo
 
 ### 3.2 Two ways to resolve the denominator
 
-| Option | Action | Implication |
-|---|---|---|
-| **A. Run a proper 8-file test** | Stage 8 representative/adversarial source files into `sources/tactiq/` (or across multiple source buckets), re-run CP2, hand-score. | Gold-standard. Requires selecting or finding 8 files and takes real LLM time. |
-| **B. Revisit the gate itself** | Decide that 3/3 clean enrichments, with all hard rules holding, is sufficient to proceed; lower the gate threshold or accept a smaller denominator. | Faster, but violates the original "don't loosen a gate to pass" rule unless you explicitly endorse the change. |
+| Option                          | Action                                                                                                                                              | Implication                                                                                                    |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **A. Run a proper 8-file test** | Stage 8 representative/adversarial source files into `sources/tactiq/` (or across multiple source buckets), re-run CP2, hand-score.                 | Gold-standard. Requires selecting or finding 8 files and takes real LLM time.                                  |
+| **B. Revisit the gate itself**  | Decide that 3/3 clean enrichments, with all hard rules holding, is sufficient to proceed; lower the gate threshold or accept a smaller denominator. | Faster, but violates the original "don't loosen a gate to pass" rule unless you explicitly endorse the change. |
 
 ### 3.3 The File 2 concern
 
