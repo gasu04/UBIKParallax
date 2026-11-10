@@ -121,7 +121,10 @@ The GitHub Action handles deployment automatically. To trigger manually:
 
 1. Go to **Settings** → **Pages**
 2. Under **Build and deployment**, select **GitHub Actions** as the source
-3. The site will be available at `https://<username>.github.io/UBIKParallax/`
+3. The site is served at `https://parallax.ubikparallax.nexus/` (custom domain, set under
+   **Settings** → **Pages** → **Custom domain**; DNS is a CNAME to `gasu04.github.io`).
+   The workflow builds with `--base=/` for that domain. The old
+   `https://gasu04.github.io/UBIKParallax/` address redirects to it, path included.
 
 ## License
 

@@ -36,7 +36,7 @@ jobs:
         run: node scripts/build-notes.mjs
 
       - name: Build site
-        run: npx vite build --base=/UBIKParallax/
+        run: npx vite build --base=/
 
       - name: Prepare deploy directory
         run: |
