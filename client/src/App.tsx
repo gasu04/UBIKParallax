@@ -14,7 +14,8 @@ import AboutPage from "./pages/AboutPage";
 import Layout from "./components/Layout";
 
 // Detect base path from Vite's import.meta.env.BASE_URL
-// In dev: "/" — In GitHub Pages build: "/UBIKParallax/"
+// "/" in dev and on the custom domain (parallax.ubikparallax.nexus); the old
+// github.io project-page build used "/UBIKParallax/".
 const BASE = import.meta.env.BASE_URL?.replace(/\/$/, '') || '';
 
 function Routes() {
