@@ -1,1 +1,0 @@
-Science and Religion.  Two powerful and epcochal cultural artifacts that have 
