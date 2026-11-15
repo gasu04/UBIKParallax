@@ -11,10 +11,14 @@
             "id": "361d7feb068f45db",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UBIK, Parte I -La idea.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "UBIK, Parte I -La idea"
             }
           }
         ]
@@ -110,7 +114,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CP2_status.md",
+            "file": "UBIK, Parte I -La idea.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -167,11 +171,11 @@
   },
   "active": "361d7feb068f45db",
   "lastOpenFiles": [
+    "README.md",
     "CP2_status.md",
     "vault/Science and Religion.md",
     "vault/Quote.md",
     "vault/Causal Volume Transition of the North American Node.md",
-    "README.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

@@ -4,5 +4,6 @@
   "interfaceFontFamily": "Avenir Next Condensed",
   "textFontFamily": "American Typewriter",
   "baseFontSize": 23,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "showRibbon": true
 }
